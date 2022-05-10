@@ -1,23 +1,25 @@
 b{
-  color:  darkblue
+  color:  darkblue;
 }
 .go_left_all{
-  display:grid;
-  grid-template-columns: 200px 200px 200px 200px;
+  display: flex;
 }
 
-.set_margin{
-  margin-left: 10vw;
-  margin-right:10vw;
+.dec_elems_in_head{
+  text-align: center;
+  padding: 1.8vh 10%;
+  text-decoration: none;
+  display: block;
+  border: 1px solid white
 }
 
-}
 .set_info_top{
   align-content: center;
   align-items: center;
   display: flex;
-  height: 10vh;
-  width: 100%;
+  position: absolute;
+  height: 5vh;
+  width: 100vw;
   background-color: #ff8800
 }
 
@@ -31,7 +33,6 @@ img{
   top: 2px;
   right: 2px;
 }
-
 
 body{
   height: 100vh;
