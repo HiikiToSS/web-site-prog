@@ -1,43 +1,68 @@
-b{
-  color:  darkblue;
-}
-.go_left_all{
-  display: flex;
-}
-
-.dec_elems_in_head{
-  text-align: center;
-  padding: 1.8vh 10%;
+*{
+  list-style-type: none;
   text-decoration: none;
-  display: block;
-  border: 1px solid white
+  font-family: Comic Sans MS;
 }
 
-.set_info_top{
-  align-content: center;
-  align-items: center;
+body{
+  min-height: 100vh ;
+  background: linear-gradient(to bottom right, #fffc00, #00fff5);
+}
+
+#border_navi{
+  border: 1px solid #ffffff;
+  padding: 1vh;
+  border-radius: 15px
+}
+
+.welcome{
+  font-size: 24px;
+  text-align: center;
+}
+
+nav{
   display: flex;
-  position: absolute;
-  height: 5vh;
-  width: 100vw;
-  background-color: #ff8800
+  justify-content: space-between;
+  align-items: center;
+  height: 2em;
+  text-align: center;
+  background-color: #ff8800;
+}
+
+nav a{
+  font-size: 22;
+  display: block;
+  width: 100%;
+  color: white;
+}
+
+.body_container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom:30px;
+}
+
+#welcome{
+  font-size: 24px;
+  text-align: center;
+}
+
+#border_welcome{
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid #ffc400;
+}
+
+.anime_list{
+  margin-top: 10px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 img{
   height: 200px;
-  wight: 200px;
-}
-
-.go_top_right{
-  position: static;
-  top: 2px;
-  right: 2px;
-}
-
-body{
-  height: 100vh;
-  width: 100%;
-  background: linear-gradient(to bottom right, #fffc00, #00fff5);
 }
 
 .border{
@@ -46,4 +71,19 @@ body{
   margin: 10px;
   padding: 5px;
   border: 2px solid #ffc400;
+}
+
+footer{
+  bottom: 3px;
+  right: 3px;
+  width: 15vw;
+  height: 30px;
+  justify-content:center;
+  display: flex;
+  align-items: center;
+  background-color: #ff8800;
+  position: fixed;
+}
+.footer-el{
+  padding-right:10px;
 }
