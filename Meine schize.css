@@ -1,0 +1,13 @@
+*{
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Comic Sans MS;
+}
+body{
+  min-height: 100vh ;
+  background: linear-gradient(gray, #000000);
+}
+
+.col_ilya{
+  color: white;
+}

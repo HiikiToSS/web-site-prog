@@ -4,6 +4,8 @@
   font-family: Comic Sans MS;
 }
 
+
+
 body{
   min-height: 100vh ;
   background: linear-gradient(to bottom right, #fffc00, #00fff5);
@@ -45,7 +47,7 @@ nav a{
 
 #welcome{
   font-size: 24px;
-  text-align: center;
+  text-align: center;  
 }
 
 #border_welcome{
@@ -77,7 +79,7 @@ footer{
   bottom: 3px;
   right: 3px;
   width: 15vw;
-  height: 30px;
+  height: 35px;
   justify-content:center;
   display: flex;
   align-items: center;
