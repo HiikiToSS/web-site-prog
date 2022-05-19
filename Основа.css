@@ -76,15 +76,15 @@ img{
 }
 
 footer{
-  bottom: 3px;
-  right: 3px;
-  width: 15vw;
+  bottom: 2px;
+  right: 10px;
+  width: 98vw;
   height: 35px;
   justify-content:center;
   display: flex;
   align-items: center;
   background-color: #ff8800;
-  position: fixed;
+  position: absolute;
 }
 .footer-el{
   padding-right:10px;

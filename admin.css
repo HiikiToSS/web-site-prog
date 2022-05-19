@@ -1,4 +1,9 @@
 .space_between{
-  display: flex;
-  justify-content: space-between;
+  display: raw;
+  width: 20vw;
+  border: 2px solid black;
+}
+
+body{
+  text-align: center;
 }
