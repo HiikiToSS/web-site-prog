@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="../static/admin_style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <table style="margin-bottom:40px;">
+      <tr>
+        <th>Название</th>
+        <th>Жанры</th>
+        <th>Кол-во серий</th>
+        <th>Id</th>
+      </tr>
+        {% for item in items %}
+          <tr>
+            <td>{{item.title}}</td>
+            <td>{{item.type}}</td>
+            <td>{{item.amount}}</td>
+            <td>{{item.Id}}</td>
+            <td>
+              <form action="/delete" method="POST">
+                <input type="hidden" name="id" value ={{item.Id}}>
+                     <button type="submit" class="button">Удалить</button>
+              </form>
+            </td>
+          </tr>
+        {% endfor %}
+    </table>
+  </div>
+  
+<form class="form" method ="POST">
+  <h3>Добавление товара</h3>
+  <br>
+  <input type="text" name="title" placeholder="Название">
+  <input type="text" name="type"  placeholder="Жанр">
+  <input type="text" name="amount"  placeholder="Количество серий">
+  <input type="submit" class="button">
+</form>
+</body>
+</html>
