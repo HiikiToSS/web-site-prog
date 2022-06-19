@@ -1,0 +1,85 @@
+*{
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Comic Sans MS;
+}
+
+body{
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #fffc00, #00fff5);
+}
+
+/*Попробуй всё таки избавится от него*/
+#out_cont_for_tLabel{
+    display: flex;
+    justify-content: center;
+}
+
+#tLabel{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding: 3px;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    display: flex;
+    text-align: center;
+}
+
+#set_choosen_to_center{
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  height: 200px;
+}
+
+#chosen_anime{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    aign-items: center;
+    overflow: auto;
+}
+
+#border{
+  border-radius: 15px;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  height: 250px;
+  border: 2px solid #ffc400;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2em;
+    text-align: center;
+    background-color: #ff8800;
+    margin: 2px;
+    padding: 1vh;
+    border-radius: 15px
+}
+
+nav a{
+    font-size: 22;
+    display: block;
+    width: 100%;
+    color: white;
+}
+
+/*сделай её не совсем как кусок чего-то*/
+#cont_for_del{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#del_button{
+    height: 30px;
+}

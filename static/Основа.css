@@ -1,140 +1,139 @@
-*{
-  list-style-type: none;
-  text-decoration: none;
-  font-family: Comic Sans MS;
+*{ 
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Comic Sans MS;
 }
 
 a{
-  color: black;
+    color: black;
 }
 
 body{
-  min-height: 100vh ;
-  background: linear-gradient(to bottom right, #fffc00, #00fff5);
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #fffc00, #00fff5);
 }
 
 #set_hide_nav_to_end{
-  padding: 8px;
-  text-align: right;
+    padding: 8px;
+    text-align: right;
 }
 
 button{
-  justify-content: center;
-  align-items: center;
-  background: #ffa600;
-  border: 1px solid black;
-  border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    background: #ffa600;
+    border: 1px solid black;
+    border-radius: 15px;
 }
 
-#main_elem_in_left_list{
-  text-align: center;
-  width: 40px;
-  font-size: 38px;
-  border: 2px solid orange;
-}
+.main_elem_in_left_list{
+    text-align: center;
+    width: 40px;
+    font-size: 38px;
+    border: 2px solid orange;
+    }
 
 .flex_all{
-  display: flex;
-  width: 100%;
-  heigth: 100vh;
+    display: flex;
+    width: 100%;
+    heigth: 100vh;
 }
 
 nav_left{
-  margin: 0.5em;
-  border: 5px ridge #ffa600;
-  justify-content: space-around;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  width: 8vw;
-  color: black;
+    margin: 0.5em;
+    border: 5px ridge #ffa600;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 8vw;
+    color: black;
 }
 
-#border_nav_2{
-  text-align: center;
-  width: 5vw;
-  font-size: 25px
+.border_nav_2{
+    text-align: center;
+    width: 5vw;
+    font-size: 25px
 }
 
 .welcome{
-  font-size: 24px;
-  text-align: center;
+    font-size: 24px;
+    text-align: center;
 }
 
 nav{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 2em;
-  text-align: center;
-  background-color: #ff8800;
-  margin: 2px;
-  border: 1px solid #ffffff;
-  padding: 1vh;
-  border-radius: 15px
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2em;
+    text-align: center;
+    background-color: #ff8800;
+    margin: 2px;
+    padding: 1vh;
+    border-radius: 15px
 }
 
 nav a{
-  font-size: 22;
-  display: block;
-  width: 100%;
-  color: white;
+    font-size: 22;
+    display: block;
+    width: 100%;
+    color: white;
 }
 
 .body_container{
-  justify-content: center;
-  display: flex;
-  margin-top: 20px;
-  margin-bottom:30px;
-  width:100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom:30px;
+    width:100%;
 }
 
 #welcome{
-  font-size: 24px;
-  text-align: center;  
+    font-size: 24px;
+    text-align: center;  
 }
 
 #border_welcome{
-  padding: 5px;
-  border-radius: 10px;
-  border: 2px solid #ffc400;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #ffc400;
 }
 
 .anime_list{
-  margin-top: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 img{
-  height: 200px;
+    height: 200px;
 }
 
 .border{
-  border-radius: 15px;
-  text-align: center;
-  margin: 10px;
-  padding: 5px;
-  height: 250px;
-  border: 2px solid #ffc400;
+    border-radius: 15px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    height: 250px;
+    border: 2px solid #ffc400;
 }
 
 html, body {
-  margin: 0;
-  display: table;
-  height: 100%;
-  width: 100%;
-  font-family: Calibri, sans-serif;
+    margin: 0;
+    display: table;
+    height: 100%;
+    width: 100%;
+    font-family: Calibri, sans-serif;
 }
 
 .wrapper {
-  padding: 20px;
-  height: auto;
+    padding: 20px;
+    height: auto;
 }
 
 footer {
-  background: #ff8800;
-  display: table-row;
-  height: 1px;
+    background: #ff8800;
+    display: table-row;
+    height: 1px;
 }
